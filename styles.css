@@ -1,0 +1,26 @@
+.testDiv {
+    border: 5px outset blue;
+    background-color: orange;
+    text-align: center;
+}
+/* 
+body {
+    background-color: rgba(0, 0, 255, 0.466);
+}
+
+p {
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+img {
+    padding-left: 100px;
+}
+
+video {
+    padding-left: 100px;
+}
+
+figcaption {
+    background-color: blueviolet;
+} */
