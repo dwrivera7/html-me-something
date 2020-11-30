@@ -1,8 +1,47 @@
-.testDiv {
-    border: 5px outset blue;
-    background-color: orange;
+body {
+    background-color: rgb(21, 32, 43);
+    color: aliceblue;
+}
+
+img {
+    border: 10px outset blue;
+}
+
+video {
+    border: 10px outset blue;
+}
+
+ul {
+    color: orange;
+}
+
+a:link{
+    color: lightskyblue
+}
+
+a:visited{
+    color: orange;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: silver;
+}
+
+figure {
+    display: inline-block;
+    margin: 20px;
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
     text-align: center;
 }
+
 /* 
 body {
     background-color: rgba(0, 0, 255, 0.466);
@@ -21,6 +60,10 @@ video {
     padding-left: 100px;
 }
 
-figcaption {
-    background-color: blueviolet;
+ */
+
+ /* .testDiv {
+    border: 5px outset blue;
+    background-color: orange;
+    text-align: center;
 } */
