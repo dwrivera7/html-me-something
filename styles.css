@@ -1,17 +1,56 @@
-body {
+html {
+	margin: 0;
+    padding: 0;
+}
+
+body { 
+	font: 125% times;
+	line-height: 1.25;
     background-color: rgb(21, 32, 43);
     color: aliceblue;
+	margin: 50; 
+	padding: 0;
+}
+
+p { 
+	margin-top: 0; 
+    text-align: justify;
+}
+
+h2 {
+    border: 5px outset orange;
+    background-color: rgb(23, 23, 156);
+    text-align: center;
+}
+
+h3 {
+    border: 5px outset orange;
+    background-color: rgb(23, 23, 156);
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+figure {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 img {
     border: 10px outset blue;
 }
 
+
 video {
-    border: 10px outset blue;
+    border: 10px outset blue;    
 }
 
 ul {
+    font-weight: bold;
     color: orange;
 }
 
@@ -41,29 +80,3 @@ figure img {
 figure figcaption {
     text-align: center;
 }
-
-/* 
-body {
-    background-color: rgba(0, 0, 255, 0.466);
-}
-
-p {
-    margin-right: 150px;
-    margin-left: 80px;
-}
-
-img {
-    padding-left: 100px;
-}
-
-video {
-    padding-left: 100px;
-}
-
- */
-
- /* .testDiv {
-    border: 5px outset blue;
-    background-color: orange;
-    text-align: center;
-} */
